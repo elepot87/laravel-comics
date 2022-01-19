@@ -63,11 +63,9 @@
   margin-right: 50px;
 }
 
-.menu-item.active {
+.item-active {
   border-bottom: 3px solid #0282f9;
-}
-.menu-item.active a {
-  color: #0282f9;
+  color: #0282f9 !important;
 }
 
 a img {
