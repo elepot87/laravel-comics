@@ -7,6 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>HOME PAGE</h1>
+    @include('partials.header')
+    <main>
+        <h1>HOME PAGE</h1>
+    </main>
 </body>
 </html>
