@@ -86,7 +86,6 @@ a img {
 
 .main-menu li {
   margin: 0 10px;
-  border-bottom: 3px solid transparent;
   height: 100px;
   line-height: 100px;
 }
@@ -147,6 +146,10 @@ a img {
   text-transform: uppercase;
   margin-top: 20px;
   font-size: 20px;
+}
+
+footer {
+  border-top: 8px solid #0282f9;
 }
 
 .footer-social {
