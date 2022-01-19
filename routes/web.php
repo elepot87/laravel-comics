@@ -18,7 +18,12 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-// Header
-Route::get('/partials/header', function () {
-    return view('header');
-})->name('header');
+// News
+Route::get('/news', function () {
+    return view('news');
+})->name('news');
+
+// Comics
+Route::get('/comics', function () {
+    return view('comics');
+})->name('comics');
