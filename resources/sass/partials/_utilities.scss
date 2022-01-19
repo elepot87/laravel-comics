@@ -14,6 +14,11 @@
     align-items: center;
 }
 
+.flex-start {
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .no-list-style {
     list-style: none;
 }
@@ -47,4 +52,8 @@
 
 .mb-15 {
     margin-bottom: 15px;
+}
+
+.mr-50 {
+    margin-right: 50px;
 }

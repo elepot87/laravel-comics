@@ -1,6 +1,6 @@
 <header>
-    <div class="container flex flex-center">
-      <a href="{{route('home')}}">
+    <div class="container flex flex-start">
+      <a href="{{route('home')}}" class="mr-50">
         <img src="{{asset('images/dc-logo.png')}}" alt="DC logo" />
       </a>
       <nav class="nav-menu">
