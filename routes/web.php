@@ -239,7 +239,7 @@ Route::get('/comics', function () {
             ],
         ],
     ];
-    dump($comics);
+    // dump($comics);
     // pagina
     return view('comics', [
         'comics' => $comics,

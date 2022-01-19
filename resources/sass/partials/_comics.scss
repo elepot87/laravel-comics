@@ -17,6 +17,32 @@
         margin: 40px 0 20px;
         align-self: center;
     }
+    .container-comics {
+        flex-wrap: wrap;
+        li {
+            width: calc(100% / 6 - 30px);
+            margin: 50px 15px 0 15px;
+        }
+    }
+    .card {
+        height: 100%;
+        width: 100%;
+        .container-img {
+            height: 170px;
+            width: 100%;
+            overflow: hidden;
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        .title-comics {
+            color: $white;
+            text-transform: uppercase;
+            margin-top: 20px;
+            font-size: $font-comics;
+        }
+    }
 }
 
 // .title {
@@ -33,31 +59,3 @@
 //         text-transform: uppercase;
 //     }
 // }
-
-.container-comics {
-    flex-wrap: wrap;
-    li {
-        width: calc(100% / 6 - 30px);
-        margin: 50px 15px 0 15px;
-    }
-}
-
-.card {
-    height: 100%;
-    width: 100%;
-    .container-img {
-        height: 170px;
-        width: 100%;
-        overflow: hidden;
-        img {
-            width: 100%;
-            object-fit: cover;
-        }
-    }
-    .title-comics {
-        color: $white;
-        text-transform: uppercase;
-        margin-top: 20px;
-        font-size: $font-comics;
-    }
-}
