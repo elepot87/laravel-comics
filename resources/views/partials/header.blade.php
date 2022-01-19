@@ -9,5 +9,4 @@
             <li><a href="{{route('news')}}">News</a></li>
         </ul>
     </nav>
-
 </header>
