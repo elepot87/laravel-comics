@@ -6,7 +6,6 @@
     background-image: url("/images/jumbotron.jpg");
     background-position: top center;
     border-bottom: 50px solid $primary-color;
-
     .cover {
         position: relative;
         width: 194px;
@@ -41,12 +40,12 @@
         }
     }
 }
-.container-cover {
+.container-comic {
     padding: 10% 14%;
     display: flex;
     justify-content: space-between;
     .info {
-        width: 60%;
+        width: 65%;
         .title-comic {
             text-transform: uppercase;
             color: $title-comic-detail;
@@ -84,11 +83,28 @@
                 padding: 20px;
                 width: 30%;
                 border-bottom: 1px solid $second-color;
+                text-align: center;
                 .icon-toggle {
                     font-size: 14px;
                     margin-left: 10px;
                 }
             }
+        }
+        .description {
+            margin-top: 15px;
+            color: $light-grey;
+            line-height: 28px;
+        }
+    }
+    .banner-adv {
+        position: relative;
+        bottom: 15px;
+        text-transform: uppercase;
+        .text-adv {
+            text-align: right;
+            font-weight: $font-bold;
+            color: $light-grey;
+            font-size: 22px;
         }
     }
 }

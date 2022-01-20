@@ -19,7 +19,7 @@
                 </div>
             </div>
     </section>
-    <section class="container-cover">
+    <section class="container-comic">
         <div class="info">
             <h1 class="title-comic">{{$comic['title']}}</h1>
             <div class="container-info mt-20">
@@ -39,9 +39,15 @@
                     <i class="fas fa-caret-down icon-toggle"></i>
                 </div>
             </div>
+            <div class="description">
+                {{$comic['description']}}
+            </div>
         </div>
-        <div class="adv">
-            ciao adv
+        <div class="banner-adv">
+            <div class="text-adv">advertisement</div>
+            <div class="banner">
+                <img src="{{asset('images/adv.jpg')}}" alt="banner-adv">
+            </div>
         </div>
     </section>
 
