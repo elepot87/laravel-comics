@@ -20,7 +20,12 @@
             </div>
     </section>
     <section class="container-cover">
-        <h1 class="title-comic">{{$comic['title']}}</h1>
+        <div class="info">
+            <h1 class="title-comic">{{$comic['title']}}</h1>
+        </div>
+        <div class="adv">
+            ciao adv
+        </div>
     </section>
 
     {{-- <h1>{{$comic['title']}}</h1>
