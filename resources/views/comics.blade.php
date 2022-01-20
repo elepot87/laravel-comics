@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('head-title', 'Comics | DC Comics' )
+
 @section('main-content')
     <div class="products">
         <div class="container flex">
