@@ -80,7 +80,7 @@
   height: 100%;
 }
 
-a img {
+.link-logo .img-logo {
   max-width: 60px;
 }
 
@@ -131,17 +131,21 @@ a img {
   height: 100%;
   width: 100%;
 }
-.products .card .container-img {
+.products .card a {
+  width: 100%;
+  display: inline-block;
+}
+.products .card a .container-img {
   height: 170px;
   width: 100%;
   overflow: hidden;
 }
-.products .card .container-img img {
+.products .card a .container-img img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.products .card .title-comics {
+.products .card a .title-comics {
   color: #fff;
   text-transform: uppercase;
   margin-top: 20px;
