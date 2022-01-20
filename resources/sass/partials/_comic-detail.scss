@@ -1,0 +1,41 @@
+.jumbotron {
+    padding: 125px 0 0 200px;
+    height: 430px;
+    width: 100%;
+    background-image: url("/images/jumbotron.jpg");
+    background-position: top center;
+    border-bottom: 50px solid $primary-color;
+    .cover {
+        position: relative;
+        width: 194px;
+        height: auto;
+        border: 1px solid $white;
+        .text {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            background-color: $primary-color;
+            color: $white;
+            text-transform: uppercase;
+            font-size: $font-comics;
+            padding: 5px;
+            text-align: center;
+        }
+        .cta {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: $primary-color;
+            text-transform: uppercase;
+            font-size: $font-comics;
+            padding: 5px;
+            text-align: center;
+            a {
+                text-decoration: none;
+                color: $white;
+            }
+        }
+    }
+}

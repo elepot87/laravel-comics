@@ -179,3 +179,45 @@ footer {
 .footer-social .container img:hover {
   cursor: pointer;
 }
+
+.jumbotron {
+  padding: 125px 0 0 200px;
+  height: 430px;
+  width: 100%;
+  background-image: url("/images/jumbotron.jpg");
+  background-position: top center;
+  border-bottom: 50px solid #0282f9;
+}
+.jumbotron .cover {
+  position: relative;
+  width: 194px;
+  height: auto;
+  border: 1px solid #fff;
+}
+.jumbotron .cover .text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  background-color: #0282f9;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+}
+.jumbotron .cover .cta {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0282f9;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+}
+.jumbotron .cover .cta a {
+  text-decoration: none;
+  color: #fff;
+}
