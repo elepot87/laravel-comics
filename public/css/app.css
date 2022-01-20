@@ -181,7 +181,7 @@ footer {
 }
 
 .jumbotron {
-  padding: 125px 0 0 200px;
+  padding: 10% 0 0 14%;
   height: 430px;
   width: 100%;
   background-image: url("/images/jumbotron.jpg");
@@ -220,4 +220,8 @@ footer {
 .jumbotron .cover .cta a {
   text-decoration: none;
   color: #fff;
+}
+
+.container-cover {
+  padding: 10% 0 0 14%;
 }

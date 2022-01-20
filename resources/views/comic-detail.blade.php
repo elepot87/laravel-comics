@@ -4,21 +4,24 @@
 
 @section('main-content')
 
-<section class="jumbotron">
-    <div class="cover">
-        <div class="text">
-            Comic Book
-        </div>
-         <figure>
-        <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
-    </figure>
-    <div class="cta">
-        <a href="{{route('comics')}}">
-            View Gallery
-        </a>
-        </div>
-    </div>
-</section>
+    <section class="jumbotron">
+            <div class="cover">
+                <div class="text">
+                    Comic Book
+                </div>
+                <figure>
+                <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
+            </figure>
+            <div class="cta">
+                <a href="{{route('comics')}}">
+                    View Gallery
+                </a>
+                </div>
+            </div>
+    </section>
+    <section class="container-cover">
+        <h1 class="title-comic">{{$comic['title']}}</h1>
+    </section>
 
     {{-- <h1>{{$comic['title']}}</h1>
     <figure>
