@@ -134,6 +134,7 @@
 .products .card a {
   width: 100%;
   display: inline-block;
+  text-decoration: none;
 }
 .products .card a .container-img {
   height: 170px;
@@ -227,8 +228,45 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-.container-cover .title-comic {
+.container-cover .info {
+  width: 60%;
+}
+.container-cover .info .title-comic {
   text-transform: uppercase;
   color: #5996b2;
   font-size: 40px;
+}
+.container-cover .info .container-info {
+  display: flex;
+  font-size: 20px;
+}
+.container-cover .info .container-info .info-price-availability {
+  background: #55ba59;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  color: #fff;
+  border-bottom: 1px solid #303030;
+  border-right: 1px solid #303030;
+}
+.container-cover .info .container-info .info-price-availability .col-sx .valuta {
+  text-transform: capitalize;
+  color: #96f08b;
+}
+.container-cover .info .container-info .info-price-availability .col-dx .availability {
+  color: #96f08b;
+  text-transform: uppercase;
+}
+.container-cover .info .container-info .check {
+  color: #fff;
+  text-transform: capitalize;
+  background: #55ba59;
+  padding: 20px;
+  width: 30%;
+  border-bottom: 1px solid #303030;
+}
+.container-cover .info .container-info .check .icon-toggle {
+  font-size: 14px;
+  margin-left: 10px;
 }

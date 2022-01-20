@@ -15,7 +15,7 @@
                                       <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}" />
                                   </div>
                                   <div class="title-comics">
-                                      {{$comic['title']}}
+                                      {{$comic['series']}}
                                   </div>  
                               </a>
                         </div>                        

@@ -41,14 +41,54 @@
         }
     }
 }
-
 .container-cover {
     padding: 10% 14%;
     display: flex;
     justify-content: space-between;
-    .title-comic {
-        text-transform: uppercase;
-        color: $title-comic-detail;
-        font-size: 40px;
+    .info {
+        width: 60%;
+        .title-comic {
+            text-transform: uppercase;
+            color: $title-comic-detail;
+            font-size: 40px;
+        }
+        .container-info {
+            display: flex;
+            font-size: $font-comics;
+            .info-price-availability {
+                background: $background-price-detail;
+                padding: 20px;
+                display: flex;
+                justify-content: space-between;
+                width: 70%;
+                color: $white;
+                border-bottom: 1px solid $second-color;
+                border-right: 1px solid $second-color;
+                .col-sx {
+                    .valuta {
+                        text-transform: capitalize;
+                        color: $valuta;
+                    }
+                }
+                .col-dx {
+                    .availability {
+                        color: $valuta;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+            .check {
+                color: $white;
+                text-transform: capitalize;
+                background: $background-price-detail;
+                padding: 20px;
+                width: 30%;
+                border-bottom: 1px solid $second-color;
+                .icon-toggle {
+                    font-size: 14px;
+                    margin-left: 10px;
+                }
+            }
+        }
     }
 }

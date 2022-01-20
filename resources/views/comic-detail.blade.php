@@ -7,7 +7,7 @@
     <section class="jumbotron">
             <div class="cover">
                 <div class="text">
-                    Comic Book
+                    {{$comic['type']}}
                 </div>
                 <figure>
                 <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
@@ -22,6 +22,23 @@
     <section class="container-cover">
         <div class="info">
             <h1 class="title-comic">{{$comic['title']}}</h1>
+            <div class="container-info mt-20">
+                <div class="info-price-availability">
+                    <div class="col-sx">
+                        <span class="valuta">U.S. Price:</span>
+                         {{$comic['price']}}
+                    </div>
+                    <div class="col-dx">
+                        <div class="availability">
+                            Available  
+                        </div>
+                    </div>
+                </div>
+                <div class="check">
+                    Check availability
+                    <i class="fas fa-caret-down icon-toggle"></i>
+                </div>
+            </div>
         </div>
         <div class="adv">
             ciao adv
